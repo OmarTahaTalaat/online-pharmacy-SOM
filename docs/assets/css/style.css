@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-nav {
+    background-color: #255F9B;
+}
+
+.bg-grey {
+    background-color: #eee !important;
+}
+
+.bg-photo {
+    height: 92vh;
+    background: linear-gradient(to left bottom,
+            rgba(128, 210, 237, 0.8),
+            rgba(0, 81, 128, 0.7)),
+        url('../imgs/background.jpeg');
+    background-size: cover;
+}
+
+.backgroundImage {
+    background-image: url("../imgs/ackground.jpeg");
+    background-size: 110%;
+}
+
+.div {
+    min-height: 92vh !important;
+    overflow: hidden;
+}
+
+.checkOut {
+    width: 50px;
+    height: 50px;
+    line-height: 2;
+}
+
+.p{
+    text-align: justify;
+}
